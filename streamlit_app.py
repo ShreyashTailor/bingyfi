@@ -60,7 +60,7 @@ def set_bg_image(image_url):
     bg_style = f"""
     <style>
     .stApp {{
-        background-image: url("{"https://img.freepik.com/free-vector/abstract-red-light-lines-pipe-speed-zoom-black-background-technology_1142-8829.jpg?t=st=1740158877~exp=1740162477~hmac=bf0b51ee3c0d01c93307b40d882a99d0d81c61e0744b7dd59a9259fad8811629&w=1480"}");
+        background-image: url("{"bg.jpg"}");
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -70,7 +70,7 @@ def set_bg_image(image_url):
     st.markdown(bg_style, unsafe_allow_html=True)
 
 # Call the function with your image URL
-set_bg_image("https://img.freepik.com/free-vector/abstract-red-light-lines-pipe-speed-zoom-black-background-technology_1142-8829.jpg?t=st=1740158877~exp=1740162477~hmac=bf0b51ee3c0d01c93307b40d882a99d0d81c61e0744b7dd59a9259fad8811629&w=1480")
+set_bg_image("bg.jpg")
 
 
 
